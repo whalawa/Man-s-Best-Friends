@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F550074217E0EE96001B1B57 /* BorderCollie.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F550073D17E0EE96001B1B57 /* BorderCollie.jpg */; };
+		F550074317E0EE96001B1B57 /* St.Bernard.JPG in Resources */ = {isa = PBXBuildFile; fileRef = F550073E17E0EE96001B1B57 /* St.Bernard.JPG */; };
+		F550074417E0EE96001B1B57 /* JRT.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F550073F17E0EE96001B1B57 /* JRT.jpg */; };
+		F550074517E0EE96001B1B57 /* Bo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F550074017E0EE96001B1B57 /* Bo.jpg */; };
+		F550074617E0EE96001B1B57 /* ItalianGreyhound.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F550074117E0EE96001B1B57 /* ItalianGreyhound.jpg */; };
+		F550074917E0F1B6001B1B57 /* MBFPuppy.m in Sources */ = {isa = PBXBuildFile; fileRef = F550074817E0F1B6001B1B57 /* MBFPuppy.m */; };
 		F572A6F117DF9CA7001B5B9E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F572A6F017DF9CA7001B5B9E /* UIKit.framework */; };
 		F572A6F317DF9CA7001B5B9E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F572A6F217DF9CA7001B5B9E /* Foundation.framework */; };
 		F572A6F517DF9CA7001B5B9E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F572A6F417DF9CA7001B5B9E /* CoreGraphics.framework */; };
@@ -18,9 +24,17 @@
 		F572A70717DF9CA7001B5B9E /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F572A70617DF9CA7001B5B9E /* Default-568h@2x.png */; };
 		F572A70A17DF9CA7001B5B9E /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F572A70817DF9CA7001B5B9E /* MainStoryboard.storyboard */; };
 		F572A70D17DF9CA7001B5B9E /* MBFViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F572A70C17DF9CA7001B5B9E /* MBFViewController.m */; };
+		F572A71517DFA0EA001B5B9E /* MBFDog.m in Sources */ = {isa = PBXBuildFile; fileRef = F572A71417DFA0EA001B5B9E /* MBFDog.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F550073D17E0EE96001B1B57 /* BorderCollie.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = BorderCollie.jpg; sourceTree = "<group>"; };
+		F550073E17E0EE96001B1B57 /* St.Bernard.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = St.Bernard.JPG; sourceTree = "<group>"; };
+		F550073F17E0EE96001B1B57 /* JRT.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = JRT.jpg; sourceTree = "<group>"; };
+		F550074017E0EE96001B1B57 /* Bo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Bo.jpg; sourceTree = "<group>"; };
+		F550074117E0EE96001B1B57 /* ItalianGreyhound.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ItalianGreyhound.jpg; sourceTree = "<group>"; };
+		F550074717E0F1B6001B1B57 /* MBFPuppy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBFPuppy.h; sourceTree = "<group>"; };
+		F550074817E0F1B6001B1B57 /* MBFPuppy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBFPuppy.m; sourceTree = "<group>"; };
 		F572A6ED17DF9CA7001B5B9E /* Man's Best Friends.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Man's Best Friends.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F572A6F017DF9CA7001B5B9E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		F572A6F217DF9CA7001B5B9E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -37,6 +51,8 @@
 		F572A70917DF9CA7001B5B9E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		F572A70B17DF9CA7001B5B9E /* MBFViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MBFViewController.h; sourceTree = "<group>"; };
 		F572A70C17DF9CA7001B5B9E /* MBFViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MBFViewController.m; sourceTree = "<group>"; };
+		F572A71317DFA0EA001B5B9E /* MBFDog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBFDog.h; sourceTree = "<group>"; };
+		F572A71417DFA0EA001B5B9E /* MBFDog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBFDog.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +104,10 @@
 				F572A70817DF9CA7001B5B9E /* MainStoryboard.storyboard */,
 				F572A70B17DF9CA7001B5B9E /* MBFViewController.h */,
 				F572A70C17DF9CA7001B5B9E /* MBFViewController.m */,
+				F572A71317DFA0EA001B5B9E /* MBFDog.h */,
+				F572A71417DFA0EA001B5B9E /* MBFDog.m */,
+				F550074717E0F1B6001B1B57 /* MBFPuppy.h */,
+				F550074817E0F1B6001B1B57 /* MBFPuppy.m */,
 				F572A6F717DF9CA7001B5B9E /* Supporting Files */,
 			);
 			path = "Man's Best Friends";
@@ -103,6 +123,11 @@
 				F572A70217DF9CA7001B5B9E /* Default.png */,
 				F572A70417DF9CA7001B5B9E /* Default@2x.png */,
 				F572A70617DF9CA7001B5B9E /* Default-568h@2x.png */,
+				F550073D17E0EE96001B1B57 /* BorderCollie.jpg */,
+				F550073E17E0EE96001B1B57 /* St.Bernard.JPG */,
+				F550073F17E0EE96001B1B57 /* JRT.jpg */,
+				F550074017E0EE96001B1B57 /* Bo.jpg */,
+				F550074117E0EE96001B1B57 /* ItalianGreyhound.jpg */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -159,11 +184,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F550074617E0EE96001B1B57 /* ItalianGreyhound.jpg in Resources */,
 				F572A6FB17DF9CA7001B5B9E /* InfoPlist.strings in Resources */,
 				F572A70317DF9CA7001B5B9E /* Default.png in Resources */,
 				F572A70517DF9CA7001B5B9E /* Default@2x.png in Resources */,
 				F572A70717DF9CA7001B5B9E /* Default-568h@2x.png in Resources */,
 				F572A70A17DF9CA7001B5B9E /* MainStoryboard.storyboard in Resources */,
+				F550074417E0EE96001B1B57 /* JRT.jpg in Resources */,
+				F550074217E0EE96001B1B57 /* BorderCollie.jpg in Resources */,
+				F550074317E0EE96001B1B57 /* St.Bernard.JPG in Resources */,
+				F550074517E0EE96001B1B57 /* Bo.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -177,6 +207,8 @@
 				F572A6FD17DF9CA7001B5B9E /* main.m in Sources */,
 				F572A70117DF9CA7001B5B9E /* MBFAppDelegate.m in Sources */,
 				F572A70D17DF9CA7001B5B9E /* MBFViewController.m in Sources */,
+				F572A71517DFA0EA001B5B9E /* MBFDog.m in Sources */,
+				F550074917E0F1B6001B1B57 /* MBFPuppy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,6 +331,7 @@
 				F572A71217DF9CA7001B5B9E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
