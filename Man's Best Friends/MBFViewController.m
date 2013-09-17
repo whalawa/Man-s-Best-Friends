@@ -87,9 +87,13 @@
     [littlePuppy givePuppyEyes];
     
     
-    
     // Filling our NSMutableArray myDogs with our five dogs
-    self.myDogs = [[NSMutableArray alloc] initWithObjects:myDog, secondDog, thirdDog, fourthDog, littlePuppy, nil];
+    self.myDogs = [[NSMutableArray alloc] init];
+    [self.myDogs addObject:myDog];
+    [self.myDogs addObject:secondDog];
+    [self.myDogs addObject:thirdDog];
+    [self.myDogs addObject:fourthDog];
+    [self.myDogs addObject:littlePuppy];
     
     
     
